@@ -1,5 +1,5 @@
 import axios from 'axios'
-const baseUrl = 'https://3001-idx-curso-1717666185976.cluster-6yqpn75caneccvva7hjo4uejgk.cloudworkstations.dev/api/notes'
+const baseUrl = '/api/notes'
 
 const getAll = () => {
     const request = axios.get(baseUrl, {withCredentials: true})
